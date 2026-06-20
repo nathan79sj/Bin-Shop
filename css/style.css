@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+  background-color: #f5f6f9;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c3d957;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  color: #28c920;
+  font-size: 1.6em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  color: #171616;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+main {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #1b2a3d;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #ff5c38;
+  color: rgb(244, 244, 247);
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1b2a3d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
